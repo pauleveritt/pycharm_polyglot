@@ -132,7 +132,11 @@ Steps
 
 - Preferences -> install flask-cors
 
-- todo/__init__.py: import, CORS(app)
+- todo/__init__.py
+
+    - from flask.ext.cors import CORS
+
+    - CORS(app)
 
 - mkdir app
 

@@ -1,10 +1,12 @@
 from flask import Flask
+from flask.ext.cors import CORS
 import flask.ext.sqlalchemy
 import flask.ext.restless
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///todos.sqlite'
+CORS(app)
 db = flask.ext.sqlalchemy.SQLAlchemy(app)
 
 
