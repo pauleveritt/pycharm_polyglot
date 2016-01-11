@@ -148,9 +148,7 @@ Steps
 
 - todo.js
 
-    - Get nunjucks template without static
-
-    - Change /api/ to be full URL http://localhost:5000
+    - Search & replace /api/ to be full URL http://localhost:5000
 
 - From root: python -m SimpleHTTPServer 8888
 
