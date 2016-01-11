@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask ToDoMVC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../static/app.css"/>
+    <link rel="icon" type="image/x-icon" href="./static/favicon.ico"/>
+</head>
+<body class="container">
+<div class="col-md-6">
+    <h1>ToDos</h1>
+    <p><input id="newName" placeholder="Add todo..." class="form-control"/></p>
+
+    <div id="todoList">
+        <ul></ul>
+    </div>
+</div>
+<script src="../static/jquery-2.2.0.js"></script>
+<script src="../static/app.js"></script>
+<script src="../static/todo.js"></script>
+<script type="text/html" id="list_todos">
+    <ul class="list-group">
+        <% for ( var i = 0; i < todos.length; i++ ) { %>
+        <li class="list-group-item" id="<%= todos[i].id %>">
+            <span><%= todos[i].name %></span>
+            <input class="form-control input-sm" title="Edit title"
+                   value="<%= todos[i].name %>"/>
+
+            <div class="btn-group pull-right" role="group">
+                <button class="btn btn-xs btn-default edit">Edit</button>
+            </div>
+        </li>
+        <% } %>
+    </ul>
+</script>
+</body>
+</html>

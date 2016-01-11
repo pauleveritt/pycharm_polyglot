@@ -1,0 +1,23 @@
+#newName {
+    width: 20em;
+}
+
+#todoList input {
+    width: 10em;
+}
+
+#todoList li span {
+    display: inline;
+}
+
+#todoList li input {
+    display: none;
+}
+
+#todoList li[editing] span {
+    display: none;
+}
+
+#todoList li[editing] input {
+    display: inline;
+}
