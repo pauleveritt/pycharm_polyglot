@@ -153,25 +153,17 @@ Steps
 - From root: python -m SimpleHTTPServer 8888
 
 
-06 ES6 Modules with Babel
-=========================
+06 ES6 Modules with Babel and Webpack
+=====================================
 
 Steps
 -----
 
-- Install Handlebars plugin
-
-- Housekeeping: delete todo/static and todo/templates
-
 - Change PyCharm Preference for JS to Ecmascript 6
 
-- npm install --save-dev babel-cli
+- npm install --save-dev babel-preset-es2015
 
-- npm install --save-dev babel-preset-es2015 babel-preset-stage-0
-
-- npm install babel-loader webpack --save-dev
-
-- npm install style-loader css-loader --save-dev
+- npm install webpack webpack-dev-server babel-loader --save-dev
 
 XX Development serving with webpack
 ===================================
