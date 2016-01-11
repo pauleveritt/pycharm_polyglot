@@ -89,13 +89,16 @@ Goals
 Steps
 -----
 
-- This time install with PyCharm Preferences, remember --save-dev in options
+- Install eslint with PyCharm Preferences, remember --save-dev in options
 
 - Show package.json devDependencies and explain, like Python dependency groupings
 
 - Create .eslintrc
 
 - PyCharm preferences
+
+- .eslintrc: Change from single to double, show warnings in todo.js
+
 
 04 npm run Commands
 ===================

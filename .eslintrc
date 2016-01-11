@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "strict": 0,
+    "quotes": [
+      1,
+      "single"
+    ]
+  },
+  "env": {
+    "browser": true,
+    "jquery": true
+  }
+}
