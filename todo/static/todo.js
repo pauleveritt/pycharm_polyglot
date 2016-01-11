@@ -42,6 +42,15 @@
                 });
         });
 
+        // Delete an existing to do
+        todoList.on('click', '.delete', function () {
+            var todoId = $(this).closest('li')[0].id;
+            $.ajax({url: 'http://localhost:5000/api/todo/' + todoId, type: 'DELETE'})
+                .done(function () {
+                    refreshToDos();
+                });
+        });
+
         // On startup, go fetch the list of todos and re-draw
         refreshToDos();
     });

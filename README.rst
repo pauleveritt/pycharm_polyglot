@@ -17,3 +17,14 @@ Steps
 - Review everything in todo/*
 
 - Explain run configuration
+
+
+02 Delete
+=========
+
+Steps
+-----
+
+- index.html: Add <button> for delete
+
+- todo.js: Add change handler for delete
