@@ -14,6 +14,7 @@
     // John Resig jQuery Microtemplating
     var cache = {};
 
+    /*eslint-disable */
     this.tmpl = function tmpl (str, data) {
         // Figure out if we're getting a template, or if we need to
         // load the template - and be sure to cache the result.
@@ -43,5 +44,6 @@
         // Provide some basic currying to the user
         return data ? fn(data) : fn;
     };
+    /*eslint-enable */
 
 })();

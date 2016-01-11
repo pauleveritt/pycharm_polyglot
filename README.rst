@@ -110,11 +110,12 @@ Steps
 
 - Terminal: npm run lint
 
-- Put in a double quote error, run again
+- Surround Resig template engine with /*eslint-disable */   /*eslint-enable */
 
 - package.json: right-click and run from PyCharm
 
 - Fix error, re-run
+
 
 05 Frontend split from backend with CORS
 ========================================
