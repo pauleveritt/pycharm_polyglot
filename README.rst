@@ -140,11 +140,11 @@ Steps
 
 - mkdir app
 
-- cp templates/index.html app
+- Drag-drop templates/index.html app
 
-- cp -r static/* app
+- Drag-drop static/* app
 
-- Fix references in index.html
+- index.html: Fix jQuery reference to ../node_modules
 
 - todo.js
 
@@ -152,7 +152,7 @@ Steps
 
     - Change /api/ to be full URL http://localhost:5000
 
-- python -m SimpleHTTPServer 8888
+- From root: python -m SimpleHTTPServer 8888
 
 
 06 ES6 Modules with Babel
