@@ -6,8 +6,12 @@
       "single"
     ]
   },
+  "ecmaFeatures": {
+    "modules": true
+  },
   "env": {
     "browser": true,
-    "jquery": true
+    "jquery": true,
+    "es6": true
   }
 }

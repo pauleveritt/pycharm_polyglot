@@ -1,19 +1,36 @@
 import $ from 'jquery';
 
-export default function (document) {
+export default function () {
 
     var newName = $('#newName'),
-        todoList = $('#todoList'),
-        template = document.tmpl('list_todos');
+        todoList = $('#todoList');
 
     var todos;
+
+    function renderTodo (todo) {
+        return `
+    <li class="list-group-item" id="${ todo.id }">
+        <span>${ todo.name }</span>
+        <input class="form-control input-sm" title="Edit title"
+               value="${ todo.name }"/>
+
+        <div class="btn-group pull-right" role="group">
+            <button class="btn btn-xs btn-default edit">Edit</button>
+            <button class="btn btn-xs btn-default delete">Delete</button>
+        </div>
+    </li>`;
+    }
 
     function refreshToDos () {
         /* Fetch the list of todos and re-draw the listing */
         $.get('http://localhost:5000/api/todo', function (data) {
             todos = data['objects'];
             todoList.find('ul')
-                .replaceWith(template({todos: todos}));
+                .html(
+                    todos
+                        .map(todo => renderTodo(todo))
+                        .join('\n')
+                );
         });
     }
 

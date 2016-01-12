@@ -181,6 +181,8 @@ Steps
 
     - At end: initToDo(document);
 
+    - Move this.tmpl inside document ready since document isn't global any more
+
 - todo.js
 
     - import $ from 'jquery';
@@ -189,8 +191,9 @@ Steps
 
     - var template = document.tmpl('list_todos');
 
-- package.json:  "start": "webpack-dev-server --content-base app/"
+- Run Python server, see that "document" is a problem
 
+- package.json:  "start": "webpack-dev-server --content-base app/"
 
 - Stop Python web server, npm start
 
@@ -198,6 +201,32 @@ Steps
 
 - Re-arrange windows to have side-by-side
 
+
+07 Pythonic ES6
+===============
+
+Steps
+-----
+
+- String literals and array methods replace jQuery templating engine
+
+    - Function for renderToDo (todo)
+
+    - Make the string literal inside
+
+    - Replace todos[i] with todo
+
+    - In render::
+
+                todos
+                        .map(todo => renderTodo(todo))
+                        .join('\n')
+
+    - var template not needed, so 'document' doesn't have to be passed in
+
+    - app.js: get rid of this.tmpl
+
+- A class that gets returned
 
 
 
