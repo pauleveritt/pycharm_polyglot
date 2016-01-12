@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import initToDo from './todo';
+import {ToDos} from './todo';
 
 $(document).ready(function () {
 
@@ -10,7 +10,7 @@ $(document).ready(function () {
             settings.type, settings.url, thrownError);
     });
 
-    initToDo();
+    let todos = new ToDos();
 });
 
 

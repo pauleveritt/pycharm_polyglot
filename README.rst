@@ -228,11 +228,27 @@ Steps
 
 - A class that gets returned
 
+    - Constructor assigns this.todos, this.newValue and this.todoList, then calls render
 
+    - Move renderTodo to a method
 
-To Do
-=====
+    - refresh
 
-- Show Chrome debugging
+        - Convert to arrow function for lexical this
 
-- Mention we're not doing the really-right way, TDD with Mocha, next time
+Another Time
+============
+
+- More ES6-as-Python
+
+    - Rest paramaters and spread operator
+
+    - Iterators and generators
+
+    - Type hinting and interfaces via TypeScript
+
+    - ES7: Decorators, async/await
+
+- Chrome debugging, from PyCharm
+
+- Headless TDD with Mocha, next time
