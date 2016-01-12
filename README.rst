@@ -2,9 +2,19 @@
 Webinar Table of Contents
 =========================
 
+This repo contains the script for each step in the Polyglot PyCharm
+webinar. The code for each step is in numbered branches in the repo.
 
 00 Initial App
 ==============
+
+Let's start with a Flask "ToDo JS MVC" app:
+
+- Flask/SQLAlchemy backend with flask-restless
+
+- Serving HTML that uses jQuery as a "single-page app"
+
+*Note: jQuery is chosen to avoid explaining a Reat/Angular/Ember decision.*
 
 Steps
 -----
@@ -26,6 +36,9 @@ Steps
 
 01 Delete
 =========
+
+Very similar, but let's add "Delete" from "CRUD", to show that
+PyCharm can hack JS/HTML nicely.
 
 Steps
 -----
@@ -103,6 +116,9 @@ Steps
 04 npm run Commands
 ===================
 
+Task automation, such as running a linter, starting a development server,
+or pushing a release, can be done in npm "run scripts".
+
 Steps
 -----
 
@@ -119,6 +135,9 @@ Steps
 
 05 Frontend split from backend with CORS
 ========================================
+
+Let's physically move our frontend out of the backend using
+CORS, and serve our static assets using the frontend toolchain.
 
 Goals
 -----
@@ -155,6 +174,9 @@ Steps
 
 06 ES6 Modules with Babel and Webpack
 =====================================
+
+Big jump: into ES6 using Babel for "transpiling" and Webpack
+for bundling.
 
 Steps
 -----
@@ -204,6 +226,14 @@ Steps
 
 07 Pythonic ES6
 ===============
+
+Modules are a Pythonic addition to ES6. Let's look at some more:
+
+- Multiline, parameterized strings
+
+- Array methods
+
+- Classes
 
 Steps
 -----
