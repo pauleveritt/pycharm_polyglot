@@ -165,29 +165,40 @@ Steps
 
 - npm install webpack webpack-dev-server babel-loader --save-dev
 
-XX Development serving with webpack
-===================================
-
-Goals
------
-
-- Learn about bundling assets
-
-- Work productively with live reloading
-
-Steps
------
-
-- npm install --save-dev webpack webpack-dev-server
-
 - Create webpack.config.js
 
+- index.html: Change to bundle.js
 
-07 Transpiling with Babel
-=========================
+- app.js and todo.js:
 
-08 ES6 (ES2015) Modules
-=======================
+    - Remove IIFE
+
+    - Import jQuery
+
+- app.js
+
+    - import initToDo from './todo'
+
+    - At end: initToDo(document);
+
+- todo.js
+
+    - import $ from 'jquery';
+
+    - export default function (document) {
+
+    - var template = document.tmpl('list_todos');
+
+- package.json:  "start": "webpack-dev-server --content-base app/"
+
+
+- Stop Python web server, npm start
+
+- Show changing some JS, auto-reload
+
+- Re-arrange windows to have side-by-side
+
+
 
 
 To Do
