@@ -1,12 +1,13 @@
 {
-    "gitbook": "3.x.x",
-    "plugins" : [
-        "include-codeblock",
-        "ace"
-    ],
-    "pluginsConfig": {
-        "include-codeblock": {
-            "template": "ace"
-        }
+  "gitbook": "3.x.x",
+  "plugins": [
+    "include-codeblock",
+    "ace",
+    "bootstrap-callout"
+  ],
+  "pluginsConfig": {
+    "include-codeblock": {
+      "template": "ace"
     }
+  }
 }

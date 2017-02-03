@@ -1,4 +1,1 @@
-# Summary
-
-* [Introduction](README.md)
-
+docs/README.md
