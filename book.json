@@ -7,7 +7,7 @@
   ],
   "pluginsConfig": {
     "include-codeblock": {
-      "template": "ace"
+      "template": "default"
     }
   }
 }
