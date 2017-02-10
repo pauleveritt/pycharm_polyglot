@@ -202,7 +202,7 @@ First we create our module, `app1.js`:
 This module exports our `incrementer` function as its default export,
 which we then import into our test code:
 
-[include](../../../src/mocha/test12.js)
+[include](../../../src/mocha/test2.js)
 
 Line 2 imports the code we want to test. The two lines in the test
 execute this code and test the result. Let's right-click on the
