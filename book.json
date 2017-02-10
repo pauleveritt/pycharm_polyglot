@@ -3,7 +3,8 @@
   "plugins": [
     "include-codeblock",
     "ace",
-    "bootstrap-callout"
+    "bootstrap-callout",
+    "youtube"
   ],
   "pluginsConfig": {
     "include-codeblock": {
