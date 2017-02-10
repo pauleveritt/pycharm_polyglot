@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "strict": 0,
+    "quotes": [
+      1,
+      "single"
+    ]
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "jquery": true,
+    "es6": true
+  }
+}

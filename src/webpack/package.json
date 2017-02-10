@@ -1,0 +1,26 @@
+{
+  "name": "pylyglot",
+  "version": "1.0.0",
+  "description": "Series of articles for Polyglot Python with PyCharm",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pauleveritt/pauleveritt.github.io.git"
+  },
+  "author": "Paul Everitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauleveritt/pauleveritt.github.io/issues"
+  },
+  "homepage": "https://github.com/pauleveritt/pauleveritt.github.io#readme",
+  "devDependencies": {
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.0"
+  }
+}

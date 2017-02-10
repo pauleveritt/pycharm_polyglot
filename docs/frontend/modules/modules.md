@@ -130,7 +130,7 @@ caveats:
 
 - *We just broke the browser*. The code runs in Node.js but won't
   work in browser-based JavaScript engines. We'll fix that in
-  [webpack](../webpack.md).
+  [webpack](../webpack/webpack.md).
 
 - *Older module system*. Some frontend developers are adopting
   ES2015 (aka ES6) modules. Teaching that, however, requires teaching

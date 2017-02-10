@@ -8,7 +8,7 @@
   * [Linting with ESLint](/docs/frontend/eslint/eslint.md)
   * [Automation with npm run Scripts](/docs/frontend/npm_run/npm_run.md)
   * [Modules with CommonJS](/docs/frontend/modules/modules.md)
-  * [Browser Bundling with Webpack](/docs/frontend/webpack.md)
+  * [Browser Bundling with Webpack](/docs/frontend/webpack/webpack.md)
   * [Browser Debugging from PyCharm](/docs/frontend/chrome_debugging.md)
   * [TDD with Mocha](/docs/frontend/mocha.md)
   * [ES6 Imports with Babel](/docs/frontend/es6_imports.md)
