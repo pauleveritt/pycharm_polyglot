@@ -90,7 +90,7 @@ of `lib/python3.5/site-packages`, though, packages are installed
 in a `node_modules` subdirectory under the location of
 `package.json`.
 
-![jQuery in node_modules](./screenshots/node_modules.png)
+![jQuery in node_modules](node_modules.png)
 
 There's a lot to talk about for 
 [npm install](https://docs.npmjs.com/cli/install). 
@@ -120,7 +120,7 @@ for finding and adding packages, removing them, etc. The same is true for
 [provides an npm UI](https://www.jetbrains.com/pycharm/help/node-js-and-npm.html)
 for these as well:
 
-![Node.js and NPM Preferences](./screenshots/preferences.png)
+![Node.js and NPM Preferences](preferences.png)
 
 You can reach this UI at Preferences -> Node.js and NPM. With this, you
 don't have to use the command line and learn the `npm` interface for

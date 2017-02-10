@@ -55,7 +55,7 @@ dependency. Meaning, the software isn't needed for our application, but
 is used by developers when making a sandbox. This distinction can be seen
 in our resulting `package.json`:
 
-[include](../../src/eslint/package.json)
+[include](../../../src/eslint/package.json)
 
 If we didn't want to open a console, or couldn't remember the package
 name, we could ask PyCharm to find, install, and record the
@@ -75,7 +75,7 @@ Style
 are enforced in a JSON configuration file `.eslintrc` stored at 
 the top of the project. For example:
 
-[include, lang:"json"](../../src/eslint/.eslintrc)
+[include, lang:"json"](../../../src/eslint/.eslintrc)
 
 This configuration says: "In this project, everyone should use single
 quotes in JavaScript files".
@@ -86,7 +86,7 @@ That's nice to record that, but how do we enforce it? Like `pylint`,
 you can run a command against your source files and see who has been
 naughty and nice. This source file has double quotes:
 
-[include](../../src/eslint/app1.js)
+[include](../../../src/eslint/app1.js)
 
 If we "lint" it with the `eslint` command:
 
@@ -95,7 +95,7 @@ $ node_modules/.bin/eslint app1.js
 ```
 ...we get *warnings* that `Strings must use singlequote`:
 
-![ESLint command line](../../src/eslint/command_line.png)
+![ESLint command line](./command_line.png)
 
 Remember, ESLint is written in JavaScript as part of the frontend,
 Node toolchain. It fits in with the various standards we have been
@@ -117,12 +117,12 @@ by visiting Preferences -> Languages & Frameworks -> JavaScript
 installed `node_module`, and let it search for the `.eslintrc`
 file:
 
-![ESLint Preferences](../../src/eslint/eslint_prefs.png)
+![ESLint Preferences](./eslint_prefs.png)
 
 Now when editing a file with a rule violation, PyCharm will provide
 real-time warning and errors as you type:
 
-![ESLint Warnings](../../src/eslint/eslint_warnings.png)
+![ESLint Warnings](./eslint_warnings.png)
 
 ## Wrapup
 

@@ -37,7 +37,7 @@ our project, we can execute it via the Node interpreter exactly the
 same ways we do Python code. For example, this `hello_node.js`
 file:
 
-[include](../../src/hello_node/hello_node.js)
+[include](../../../src/hello_node/hello_node.js)
 
 ...can be executed from the command line with the `node` command,
 just like we use for `python`:
@@ -53,14 +53,14 @@ code](https://www.youtube.com/watch?v=JLfd9LOdu_U&list=PLQ176FUIyIUZ1mwB-uImQE-g
 using an installed Python interpreter. The same is true for JavaScript
 code with an installed Node interpreter:
 
-![Running JavaScript Code](./screenshots/hello_node_run.gif)
+![Running JavaScript Code](hello_node_run.gif)
 
 In this example, we do a right-click on the tab and choose "Run". PyCharm
 creates a "Run Configuration" and executes the code in a tool window.
 Except in this case, the run configuration isn't of *Python* Run
 Configuration. It is a *Node.js* Run Configuration:
 
-![Run Configuration](./screenshots/hello_node_config.gif)
+![Run Configuration](hello_node_config.gif)
 
 ## Configuring the Interpreter
 
@@ -68,7 +68,7 @@ Where did PyCharm find the Node executable and what options are there
 for configuring it? In the PyCharm preferences, the `JavaScript`
 panel holds this information:
 
-![JavaScript Preferences](./screenshots/hello_node_pref.gif)
+![JavaScript Preferences](hello_node_pref.gif)
 
 Just like with PyCharm's "Python Interpreter" settings, you can
 point to the executable on disk for Node. PyCharm gives a visual
@@ -95,7 +95,7 @@ nvm-managed Node environment.
 This is just a brief introduction of Node.js for Python developers,
 showing how it hooks up in PyCharm. We'll cover much more,
 particularly in the section on 
-[package.json files](./package_json.md).
+[package.json files](../package_json/package_json.md).
 
 Many Python developers might ask: should I use
 [WebStorm](https://www.jetbrains.com/webstorm)
