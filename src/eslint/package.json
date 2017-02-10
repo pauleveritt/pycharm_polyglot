@@ -1,0 +1,22 @@
+{
+  "name": "pylyglot",
+  "version": "1.0.0",
+  "description": "Series of articles for Polyglot Python with PyCharm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pauleveritt/pauleveritt.github.io.git"
+  },
+  "author": "Paul Everitt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pauleveritt/pauleveritt.github.io/issues"
+  },
+  "homepage": "https://github.com/pauleveritt/pauleveritt.github.io#readme",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
+}
